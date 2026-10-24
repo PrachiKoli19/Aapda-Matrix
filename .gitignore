@@ -1,0 +1,61 @@
+# ==========================================
+# Node & Dependencies
+# ==========================================
+node_modules/
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ==========================================
+# Build Output (Vite & Vercel)
+# ==========================================
+dist/
+dist-ssr/
+build/
+.vercel
+.output/
+
+# ==========================================
+# Environment Variables
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================================
+# Editor & OS Files
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Python (Removing the old backend)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# ==========================================
+# Logs & Testing
+# ==========================================
+logs
+*.log
+coverage/
+.nyc_output/
+
+# ==========================================
+# Misc
+# ==========================================
+*.local
+.eslintcache

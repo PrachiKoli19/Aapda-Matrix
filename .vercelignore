@@ -1,0 +1,5 @@
+backend/
+node_modules/
+*.py
+requirements.txt
+README.md
